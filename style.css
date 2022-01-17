@@ -1,1 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Luxurious+Roman&family=Merriweather:ital,wght@0,400;1,300;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Luxurious+Roman&family=Merriweather:ital,wght@0,400;1,300;1,700&family=Sarala&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        text-decoration: none;
+
+    }
+
+    body{
+        font-size: 100%;
+        background-color: rgb(255, 145, 77);
+    }
+
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+    }
+
+    .cabecalho-imagem{
+        width: 250x;
+        height: 220px;
+    }
+
+    .cabecalho-menu{
+        display: flex;
+        gap: 32px
+
+    }
+
+    .cabecalho-menu-item{
+        font-family: 'Sarala', sans-serif;
+        color: seashell;
+        font-weight: 400;
+        font-size: 18px;
+
+    }
+
     
