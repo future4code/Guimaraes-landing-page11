@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+/* HEADER */
+
+/* LOGO/LINKS */
+
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: #eae2b7
+}
+.header-div-container{
+    display: flex;
+    flex-direction: row;
+    gap: 55px;
+    margin-left: 20px;
+}
+.logo{
+    height: 60px;
+    border-radius: 20px 20px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.header-link{
+    margin-top: 30px;
+    height: 20px;
+    color: #e07a5f;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header-link:hover{
+    text-decoration: underline;
+}
+
+/* CONTATO/LOGIN */
+.header-div-container2{
+    display: flex;
+    flex-direction: row;
+}
+.header-link2{
+    margin-right: 20px;
+    margin-top: 20px;
+    height: 20px;
+}
+.header-link2 button{
+    background-color: #eae2b7;
+    padding: 8px;
+    color: #e07a5f;
+    border: #e07a5f solid 2px;
+    border-radius: 15px 15px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.header-link2 button:hover{
+    background-color: #e07a5f;
+    color: #eae2b7;
+}
+
+/* MAIN */
+
+/* CADASTRO */
+.fundo-cadastro{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("./images/fundo-main.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.main-texto{
+    position: absolute;
+    left: 90px;
+    flex-direction: column;
+    color: white;
+    width: 40vw;
+    padding-top: 150px;
+    border-radius: 20px 20px;
+}
+.cadastro-container{
+    position: absolute;
+    top: 400px;
+    left: 150px;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    background-color: #eae2b7;
+    padding: 20px;
+    border-radius: 20px 20px;
+}
+.cadastro-texto{
+    color: #e07a5f;
+}
+.cadastro-form{
+    margin-top: 30px;
+    position: relative;
+    display: block;
+    width: 20vw;
+    background-color: transparent;
+    padding-bottom: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    border: transparent;
+    border-bottom: 2px solid gray;
+}
+.cadastro-form:focus{
+    outline: none;
+    border-bottom: 2px solid #e07a5f;
+}
+.cadastro-form:focus::placeholder{
+    color: #e07a5f;
+}
+.cadastro-botao{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-color: #eae2b7;
+    width: 21vw;
+    height: 6vh;
+    color: gray;
+    border: gray solid 2px;
+    border-radius: 20px 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.cadastro-botao:hover{
+    background-color: grey;
+    color: #eae2b7;
+}
+
+/* FOOTER */
+
+footer{
+    height: 20vh;
+    background-color: #ff914d;
+}
