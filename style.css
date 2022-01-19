@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Righteous&family=Sarala&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -8,30 +11,31 @@
 
 /* LOGO/LINKS */
 
+
 .header-container{
     display: flex;
     justify-content: space-between;
-    background-color: #eae2b7
+    background-color: rgb(255, 145, 77)
 }
 .header-div-container{
     display: flex;
     flex-direction: row;
-    gap: 55px;
-    margin-left: 20px;
+    gap: 8vh;
+    margin-left: 3.04vh;
 }
 .logo{
-    height: 60px;
-    border-radius: 20px 20px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    height: 9vh;
+    margin-top: 1.52vh;
+    margin-bottom: 0.76vh;
 }
 .header-link{
-    margin-top: 30px;
-    height: 20px;
-    color: #e07a5f;
+    margin-top: 4.5vh;
+    height: 3.04vh;
+    color: seashell;
     font-weight: bolder;
     text-decoration: none;
-    font-size: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 2.3vh;
 }
 .header-link:hover{
     text-decoration: underline;
@@ -43,18 +47,18 @@
     flex-direction: row;
 }
 .header-link2{
-    margin-right: 20px;
-    margin-top: 20px;
-    height: 20px;
+    margin-right: 3.04vh;
+    margin-top: 3.04vh;
+    height: 3.04vh;
 }
 .header-link2 button{
     background-color: #eae2b7;
-    padding: 8px;
+    padding: 1.21vh;
     color: #e07a5f;
-    border: #e07a5f solid 2px;
-    border-radius: 15px 15px;
+    border: #e07a5f solid 0.30vh;
+    border-radius: 2vh 2vh;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 2.28vh;
 }
 .header-link2 button:hover{
     background-color: #e07a5f;
@@ -72,38 +76,44 @@
 }
 .main-texto{
     position: absolute;
-    left: 90px;
+    left:  13.69vh;
     flex-direction: column;
     color: white;
     width: 40vw;
-    padding-top: 150px;
-    border-radius: 20px 20px;
+    padding-top: 21.84vh;
+    border-radius: 3.04vh 3.04vh;
+    font-family: 'Sarala', sans-serif;
+    font-size: 1.8vh;
+    
 }
 .cadastro-container{
     position: absolute;
-    top: 400px;
-    left: 150px;
+    top: 58vh;
+    left: 22vh;
     display: flex;
     flex-direction: column;
     width: 25vw;
     background-color: #eae2b7;
-    padding: 20px;
-    border-radius: 20px 20px;
+    padding: 3.04vh;
+    border-radius: 3.04vh 3.04vh;
+    
 }
 .cadastro-texto{
     color: #e07a5f;
+    font-family: 'Sarala', sans-serif;
+    font-size: 3vh;
 }
 .cadastro-form{
-    margin-top: 30px;
+    margin-top: 4.5vh;
     position: relative;
     display: block;
     width: 20vw;
     background-color: transparent;
-    padding-bottom: 7px;
+    padding-bottom: 1.06vh;
     margin-left: auto;
     margin-right: auto;
     border: transparent;
-    border-bottom: 2px solid gray;
+    border-bottom: 0.30vh solid gray;
 }
 .cadastro-form:focus{
     outline: none;
@@ -116,24 +126,81 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
+    margin-top: 3.04vh;
     background-color: #eae2b7;
     width: 21vw;
     height: 6vh;
     color: gray;
-    border: gray solid 2px;
-    border-radius: 20px 20px;
+    border: gray solid 0.30vh;
+    border-radius: 3.04vh 3.04vh;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 2.28vh;
 }
 .cadastro-botao:hover{
     background-color: grey;
     color: #eae2b7;
+    
 }
 
 /* FOOTER */
 
 footer{
-    height: 20vh;
+    display: flex;
+    justify-content:space-between;
+    height: 45vh;
     background-color: #ff914d;
+}
+
+/* SLOGAN/INFORMAÇÕES */
+
+.slogan-container{
+    display: flex;
+}
+.slogan{
+    height: 45vh;
+}
+.slogan-container h2{
+    font-size: 1.3vw;
+    margin-top: 18vh;
+    margin-left: 2vw;
+    height: 3.04vh;
+    color: seashell;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: 'Sarala', sans-serif;
+}
+
+/* REDES SOCIAIS */
+
+.redes-container a{
+    margin-left: 2vw;
+    position: relative;
+    top: 19vh;
+}
+.redes-sociais{
+    height: 5vh;
+    filter: invert(95%) sepia(13%) saturate(406%) hue-rotate(337deg) brightness(105%) contrast(107%);
+}
+.redes-sociais:hover{
+    filter: invert(87%) sepia(82%) saturate(3188%) hue-rotate(311deg) brightness(99%) contrast(103%);
+}
+
+/* LINKS */
+
+.nav-container{
+    display: flex;
+    flex-direction: column;
+}
+.nav-link{
+    margin-top: 3.2vh;
+    margin-right: 3vw;
+    height: 3.04vh;
+    color: seashell;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: 'Sarala', sans-serif;
+    font-size: 2.3vh;
+}
+.nav-link:hover{
+    color: #ffbd59;
 }
