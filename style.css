@@ -11,30 +11,31 @@
 
 /* LOGO/LINKS */
 
+
 .header-container{
     display: flex;
     justify-content: space-between;
-    background-color: #eae2b7
+    background-color: rgb(255, 145, 77)
 }
 .header-div-container{
     display: flex;
     flex-direction: row;
-    gap: 55px;
-    margin-left: 20px;
+    gap: 8vh;
+    margin-left: 3.04vh;
 }
 .logo{
-    height: 60px;
-    border-radius: 20px 20px;
-    margin-top: 10px;
-    margin-bottom: 5px;
+    height: 9vh;
+    margin-top: 1.52vh;
+    margin-bottom: 0.76vh;
 }
 .header-link{
-    margin-top: 30px;
-    height: 20px;
-    color: #e07a5f;
+    margin-top: 4.5vh;
+    height: 3.04vh;
+    color: seashell;
     font-weight: bolder;
     text-decoration: none;
-    font-size: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 2.3vh;
 }
 .header-link:hover{
     text-decoration: underline;
@@ -46,18 +47,18 @@
     flex-direction: row;
 }
 .header-link2{
-    margin-right: 20px;
-    margin-top: 20px;
-    height: 20px;
+    margin-right: 3.04vh;
+    margin-top: 3.04vh;
+    height: 3.04vh;
 }
 .header-link2 button{
     background-color: #eae2b7;
-    padding: 8px;
+    padding: 1.21vh;
     color: #e07a5f;
     border: #e07a5f solid 2px;
-    border-radius: 15px 15px;
+    border-radius: 2vh 2vh;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 2.28vh;
 }
 .header-link2 button:hover{
     background-color: #e07a5f;
@@ -81,6 +82,7 @@
     width: 40vw;
     padding-top: 150px;
     border-radius: 20px 20px;
+    
 }
 .cadastro-container{
     position: absolute;
@@ -92,6 +94,7 @@
     background-color: #eae2b7;
     padding: 20px;
     border-radius: 20px 20px;
+    
 }
 .cadastro-texto{
     color: #e07a5f;
