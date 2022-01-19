@@ -145,6 +145,62 @@
 /* FOOTER */
 
 footer{
-    height: 20vh;
+    display: flex;
+    justify-content:space-between;
+    height: 45vh;
     background-color: #ff914d;
+}
+
+/* SLOGAN/INFORMAÇÕES */
+
+.slogan-container{
+    display: flex;
+}
+.slogan{
+    height: 45vh;
+}
+.slogan-container h2{
+    font-size: 1.3vw;
+    margin-top: 18vh;
+    margin-left: 2vw;
+    height: 3.04vh;
+    color: seashell;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: 'Sarala', sans-serif;
+}
+
+/* REDES SOCIAIS */
+
+.redes-container a{
+    margin-left: 2vw;
+    position: relative;
+    top: 19vh;
+}
+.redes-sociais{
+    height: 5vh;
+    filter: invert(95%) sepia(13%) saturate(406%) hue-rotate(337deg) brightness(105%) contrast(107%);
+}
+.redes-sociais:hover{
+    filter: invert(87%) sepia(82%) saturate(3188%) hue-rotate(311deg) brightness(99%) contrast(103%);
+}
+
+/* LINKS */
+
+.nav-container{
+    display: flex;
+    flex-direction: column;
+}
+.nav-link{
+    margin-top: 3.2vh;
+    margin-right: 3vw;
+    height: 3.04vh;
+    color: seashell;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: 'Sarala', sans-serif;
+    font-size: 2.3vh;
+}
+.nav-link:hover{
+    color: #ffbd59;
 }
