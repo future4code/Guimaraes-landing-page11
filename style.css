@@ -243,8 +243,7 @@ footer{
 }
 .conteudo-principal-texto1{
     font-size: 3vh;
-    
-}
+ }   
 
 /* PÁGINA - CRÉDITO */
 
@@ -309,4 +308,3 @@ footer{
 }
 #veja-mais-corrente:hover{
     color:rgb(255, 145, 77);
-}
