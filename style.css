@@ -7,10 +7,8 @@
     
 }
 
-/* HOME */
-
+/* PÁGINA - HOME */
 /* HEADER */
-
 /* LOGO/LINKS */
 
 
@@ -205,4 +203,110 @@ footer{
 }
 .nav-link:hover{
     color: #ffbd59;
+}
+
+/* PÁGINA - SOBRE NÓS */
+
+.conteudo-principal-imagem1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),url('./images/fundo-main-sobre.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.conteudo-principal-titulo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3.04vh;
+    font-family: 'Sarala', sans-serif; 
+    color: seashell;
+}
+
+.conteudo-principal-h1{
+    font-size: 4vh;
+}
+
+.conteudo-principal-h2{
+    font-size: 6vh;
+}
+
+.conteudo-principal-texto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding: 2vh;
+    font-family: 'Sarala', sans-serif; 
+    color: seashell;
+    
+}
+.conteudo-principal-texto1{
+    font-size: 3vh;
+    
+}
+
+/* PÁGINA - CRÉDITO */
+
+.fundo-credito{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("./images/fundo-main-credito.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+.main-texto-credito{
+    position: absolute;
+    right:  13.69vh;
+    flex-direction: column;
+    color: white;
+    width: 40vw;
+    padding-top: 21.84vh;
+    border-radius: 3.04vh 3.04vh;
+    font-family: 'Sarala', sans-serif;
+    font-size: 1.8vh;
+}
+#descomplica{
+    font-size: 4vh;
+    color: rgb(255, 145, 77);
+}
+.cadastro-container-credito{
+    position: absolute;
+    top: 58vh;
+    right: 22vh;
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    background-color: #eae2b7;
+    padding: 3.04vh;
+    border-radius: 3.04vh 3.04vh;
+}
+
+/* PÁGINA - CORRENTE */
+
+.fundo-corrente{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("./images/fundo-main-corrente.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 90vh;
+}
+.main-texto-corrente{
+    position: absolute;
+    right: 12vh;
+    flex-direction: column;
+    color: white;
+    width: 30vw;
+    padding-top: 30vh;
+    font-family: 'Sarala', sans-serif;
+    font-size: 2vh;
+}
+#veja-mais-corrente{
+    height: 3.04vh;
+    color: seashell;
+    font-weight: bolder;
+    text-decoration: none;
+    font-family: 'Sarala', sans-serif;
+    font-size: 2.3vh;
+}
+#veja-mais-corrente:hover{
+    color:rgb(255, 145, 77);
 }
