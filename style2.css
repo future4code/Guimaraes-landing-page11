@@ -241,3 +241,12 @@ footer{
     padding: 3.04vh;
     border-radius: 3.04vh 3.04vh;
 }
+
+/* PÁGINA - CORRENTE */
+
+.fundo-corrente{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("./images/fundo-main-corrente.jpg");
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 90vh;
+}
