@@ -11,7 +11,7 @@
 /* HEADER */
 /* LOGO/LINKS */
 
-
+@media screen and (min-device-width:1200px){
 .header-container{
     display: flex;
     justify-content: space-between;
@@ -173,7 +173,7 @@ footer{
 /* REDES SOCIAIS */
 
 .redes-container a{
-    margin-left: 2vw;
+    margin-left: 1vw;
     position: relative;
     top: 19vh;
 }
@@ -309,3 +309,300 @@ footer{
 #veja-mais-corrente:hover{
     color:rgb(255, 145, 77);
 }
+}
+
+@media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    .header-container{
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(255, 145, 77)
+    }
+    .header-div-container{
+        display: flex;
+        flex-direction: row;
+        gap: 1vh;
+        margin-left: 1vh;
+    }
+    #entrar-contato{
+        display: none;
+    }
+    .logo{
+        height: 6vh;
+        margin-top: 1vh;
+        margin-bottom: 0.76vh;
+    }
+    .header-link{
+        margin-top: 3vh;
+        height: 3.04vh;
+        color: seashell;
+        font-weight: bolder;
+        text-decoration: none;
+        font-family: 'Sarala', sans-serif;
+        font-size: 1.5vh;
+    }
+    
+    /* CONTATO/LOGIN */
+    .header-div-container2{
+        display: flex;
+        flex-direction: row;
+    }
+    .header-link2{
+        margin-right: 1vh;
+        margin-top: 2.5vh;
+        height: 3.04vh;
+    }
+    .header-link2 button{
+        background-color: #eae2b7;
+        padding: 0.7vh;
+        color: #e07a5f;
+        border: #e07a5f solid 0.30vh;
+        border-radius: 3vh 3vh;
+        font-weight: bold;
+        font-size: 1.5vh;
+    }
+    .header-link2 button:active{
+        background-color: #e07a5f;
+        color: #eae2b7;
+    }
+    
+    /* MAIN */
+    
+    /* CADASTRO */
+    .fundo-cadastro{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("./images/fundo-main-mobile.jpg");
+        background-repeat: no-repeat;
+        background-size: 300vw;
+        background-position:-500px;
+        height: 90vh;
+    }
+    .main-texto{
+        position: absolute;
+        left:  9vh;
+        flex-direction: column;
+        color: white;
+        width: 70vw;
+        padding-top: 9vh;
+        border-radius: 3.04vh 3.04vh;
+        font-family: 'Sarala', sans-serif;
+        font-size: 1.8vh;
+        
+    }
+    .cadastro-container{
+        position: absolute;
+        top: 55vh;
+        left: 5vw;
+        display: flex;
+        flex-direction: column;
+        width: 84vw;
+        background-color: #eae2b7;
+        padding: 3vw;
+        border-radius: 3.04vh 3.04vh;
+        
+    }
+    .cadastro-texto{
+        color: #e07a5f;
+        font-family: 'Sarala', sans-serif;
+        font-size: 5.5vw;
+        
+    }
+    .cadastro-form{
+        margin-top: 4.5vh;
+        position: relative;
+        display: block;
+        width: 85vw;
+        background-color: transparent;
+        padding-bottom: 1.06vh;
+        margin-left: auto;
+        margin-right: auto;
+        border: transparent;
+        border-bottom: 0.30vh solid gray;
+    }
+    .cadastro-botao{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 3.04vh;
+        background-color: #eae2b7;
+        width: 83vw;
+        height: 6vh;
+        color: gray;
+        border: gray solid 0.30vh;
+        border-radius: 3.04vh 3.04vh;
+        font-weight: bold;
+        font-size: 2.28vh;
+    }
+    .cadastro-botao:hover{
+        background-color: grey;
+        color: #eae2b7;
+        
+    }
+    
+    /* FOOTER */
+    
+    footer{
+        display: flex;
+        flex-direction: column;
+        height: 45vh;
+        background-color: #ff914d;
+    }
+    
+    /* SLOGAN/INFORMAÇÕES */
+    
+    .slogan-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .slogan{
+        width: 60vw;
+        height: 30vh;
+    }
+    .slogan-container h2{
+        font-size: 1.4vh;
+        margin-left: 2vw;
+        height: 3.04vh;
+        color: seashell;
+        font-weight: bolder;
+        text-decoration: none;
+        font-family: 'Sarala', sans-serif;
+    }
+    
+    /* REDES SOCIAIS */
+    
+    .redes-container a{
+        margin-left: 5vw;
+        position: relative;
+        top: 3vh;
+    }
+    .redes-sociais{
+        height: 5vh;
+        filter: invert(95%) sepia(13%) saturate(406%) hue-rotate(337deg) brightness(105%) contrast(107%);
+    }
+    .redes-sociais:active{
+        filter: invert(87%) sepia(82%) saturate(3188%) hue-rotate(311deg) brightness(99%) contrast(103%);
+    }
+    
+    /* LINKS */
+    
+    .nav-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .nav-link{
+        margin-top: 3.2vh;
+        margin-right: 3vw;
+        height: 3.04vh;
+        color: seashell;
+        font-weight: bolder;
+        text-decoration: none;
+        font-family: 'Sarala', sans-serif;
+        font-size: 2.3vh;
+    }
+    .nav-link:active{
+        color: #ffbd59;
+    }
+    
+    /* PÁGINA - SOBRE NÓS */
+    
+    .conteudo-principal-imagem1{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),url('./images/fundo-main-sobre.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+    }
+    
+    .conteudo-principal-titulo{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 3.04vh;
+        font-family: 'Sarala', sans-serif; 
+        color: seashell;
+    }
+    
+    .conteudo-principal-h1{
+        font-size: 4vh;
+    }
+    
+    .conteudo-principal-h2{
+        font-size: 6vh;
+    }
+    
+    .conteudo-principal-texto{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-align: center;
+        padding: 2vh;
+        font-family: 'Sarala', sans-serif; 
+        color: seashell;
+        
+    }
+    .conteudo-principal-texto1{
+        font-size: 3vh;
+     }   
+    
+    /* PÁGINA - CRÉDITO */
+    
+    .fundo-credito{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("./images/fundo-main-credito.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 90vh;
+    }
+    .main-texto-credito{
+        position: absolute;
+        right:  13.69vh;
+        flex-direction: column;
+        color: white;
+        width: 40vw;
+        padding-top: 21.84vh;
+        border-radius: 3.04vh 3.04vh;
+        font-family: 'Sarala', sans-serif;
+        font-size: 1.8vh;
+    }
+    #descomplica{
+        font-size: 4vh;
+        color: rgb(255, 145, 77);
+    }
+    .cadastro-container-credito{
+        position: absolute;
+        top: 58vh;
+        right: 22vh;
+        display: flex;
+        flex-direction: column;
+        width: 25vw;
+        background-color: #eae2b7;
+        padding: 3.04vh;
+        border-radius: 3.04vh 3.04vh;
+    }
+    
+    /* PÁGINA - CORRENTE */
+    
+    .fundo-corrente{
+        background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url("./images/fundo-main-corrente.jpg");
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        height: 90vh;
+    }
+    .main-texto-corrente{
+        position: absolute;
+        right: 12vh;
+        flex-direction: column;
+        color: white;
+        width: 30vw;
+        padding-top: 30vh;
+        font-family: 'Sarala', sans-serif;
+        font-size: 2vh;
+    }
+    #veja-mais-corrente{
+        height: 3.04vh;
+        color: seashell;
+        font-weight: bolder;
+        text-decoration: none;
+        font-family: 'Sarala', sans-serif;
+        font-size: 2.3vh;
+    }
+    #veja-mais-corrente:hover{
+        color:rgb(255, 145, 77);
+    }
+    }
