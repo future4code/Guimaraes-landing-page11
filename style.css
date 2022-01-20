@@ -133,7 +133,56 @@
 
 /* FOOTER */
 
-footer{
-    height: 20vh;
+footer {
+    height: 10vh;
     background-color: #ff914d;
+    
 }
+
+.rodape-texto{
+    display: flex;
+    flex-direction: row;
+    font-family:'Times New Roman', Times, serif;
+     font-size: 30px;
+    color: black;
+    justify-content: center;
+}
+
+.rodape-link{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 5px;
+
+}
+
+.rodape-link-rede{
+    display: flex;
+    flex-direction: row;
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+}
+
+ main form{
+
+    background-color: #ffbd59;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.formulario-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.formulario-secudario{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 32px;
+    color: #e07a5f;
+}
+
