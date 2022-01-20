@@ -204,3 +204,42 @@ footer{
 .nav-link:hover{
     color: #ffbd59;
 }
+
+.conteudo-principal-imagem1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.4)),url('./images/fundo-main-sobre.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+}
+
+.conteudo-principal-titulo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 3.04vh;
+    font-family: 'Sarala', sans-serif; 
+    color: seashell;
+}
+
+.conteudo-principal-h1{
+    font-size: 4vh;
+}
+
+.conteudo-principal-h2{
+    font-size: 6vh;
+}
+
+.conteudo-principal-texto{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    text-align: center;
+    padding: 2vh;
+    font-family: 'Sarala', sans-serif; 
+    color: seashell;
+    
+}
+.conteudo-principal-texto1{
+    font-size: 3vh;
+    
+}
