@@ -7,11 +7,15 @@
     
 }
 
-/* PÁGINA - HOME */
-/* HEADER */
-/* LOGO/LINKS */
+/* ------------------VERSÃO PARA DESKTOP------------------ */
 
 @media screen and (min-device-width:1200px){
+    /* PÁGINA - HOME */
+    
+    /* HEADER */
+    
+    /* LOGO/LINKS */
+
 .header-container{
     display: flex;
     justify-content: space-between;
@@ -311,9 +315,16 @@ footer{
 }
 }
 
-/* VERSÃO PARA CELULAR */
+/* ------------------VERSÃO PARA CELULAR------------------ */
 
 @media screen and (min-device-width : 320px) and (max-device-width : 480px){
+    
+    /* PÁGINA - HOME */
+    
+    /* HEADER */
+    
+    /* LOGO/LINKS */
+    
     .header-container{
         display: flex;
         justify-content: space-between;
@@ -624,9 +635,16 @@ footer{
     }
     }
 
-/* VERSÃO PARA TABLETS */
+/* ------------------VERSÃO PARA TABLETS------------------ */
 
 @media screen and (min-device-width : 481px) and (max-device-width : 1199px) {
+    
+    /* PÁGINA - HOME */
+    
+    /* HEADER */
+    
+    /* LOGO/LINKS */
+
     .header-container{
         display: flex;
         justify-content: space-between;
