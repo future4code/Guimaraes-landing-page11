@@ -97,9 +97,10 @@
     display: flex;
     flex-direction: column;
     width: 25vw;
-    background-color: #eae2b7;
+    background: radial-gradient(black, transparent);
     padding: 3.04vh;
     border-radius: 3.04vh 3.04vh;
+   
     
 }
 .cadastro-texto{
@@ -407,7 +408,7 @@ footer{
         display: flex;
         flex-direction: column;
         width: 84vw;
-        background-color: #eae2b7;
+        background: radial-gradient(black, transparent);
         padding: 3vw;
         border-radius: 3.04vh 3.04vh;
         
@@ -727,7 +728,7 @@ footer{
         display: flex;
         flex-direction: column;
         width: 84vw;
-        background-color: #eae2b7;
+        background: radial-gradient(black, transparent);
         padding: 3vw;
         border-radius: 3.04vh 3.04vh;
         
